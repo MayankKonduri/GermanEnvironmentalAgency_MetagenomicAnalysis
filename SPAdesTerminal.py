@@ -1,0 +1,1 @@
+spades.py -1 /work/kallies/Kiwion/trimmed_RKS01_S10_R1_001.fastq.gz_paired.fastq.gz \ -2 /work/kallies/Kiwion/trimmed_RKS01_S10_R2_001.fastq.gz_paired.fastq.gz \ -s /work/kallies/Kiwion/RKS01_S10_Trim_unpaired.fastq.gz \ -o /data/aquadiva/data/Analysen/Kiwion/BDE/Assemblies/Metaviralspades/S10/ --metaviral
