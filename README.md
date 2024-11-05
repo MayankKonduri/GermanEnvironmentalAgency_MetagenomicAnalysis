@@ -46,6 +46,9 @@ Our analysis provides insights into:
 - Identification of microbial indicators under varying environmental conditions.
 - Virome diversity, including known and potentially unknown viruses.
 
+  <img width="759" alt="Screenshot 2024-11-05 at 1 03 49 PM" src="https://github.com/user-attachments/assets/b32c8095-a072-4d0a-85b2-9210dd153c8d">
+
+
 ## Future Work
 
 This research has the potential to enhance public health monitoring and inform risk assessment strategies in wastewater-based epidemiology applications.
