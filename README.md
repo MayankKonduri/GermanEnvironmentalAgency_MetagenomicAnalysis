@@ -2,7 +2,7 @@
 ## Wastewater Monitoring of SARS-CoV-2 and Pathogens in Leipzig, Germany
 
 
-> **Important Note:** This is not the entire of the project, most of the analysi was conducted on KBASE.
+> **Important Note:** This is not the entire of the project, most of the analysis was conducted on KBASE.
 
 ## Overview
 
