@@ -36,6 +36,7 @@ During the SARS-CoV-2 pandemic, we conducted weekly monitoring of wastewater sam
 - **Trimmomatic:** For quality trimming of RNA sequences.
 - **RNA-Spades:** For assembling RNA sequences.
 - **FastViromeExplorer:** For the identification of viral sequences.
+- **Quast:** For quantifying attributes of identifies RNA sequences.
 
 ## Results
 
