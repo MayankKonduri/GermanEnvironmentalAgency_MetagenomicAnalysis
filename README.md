@@ -8,6 +8,15 @@
 
 During the SARS-CoV-2 pandemic, we conducted weekly monitoring of wastewater samples in Leipzig, Germany, using PCR techniques to track various pathogens. This project analyzes metagenomic and meta-transcriptomic profiles of microbial communities, focusing on the temporal dynamics of microbial populations, functional genes, and antibiotic resistance genes. Additionally, we aim to identify microbial indicators of specific environmental conditions and explore virome diversity and pathogenic viruses.
 
+## Objectives
+
+- Assess the temporal dynamics of microbial communities.
+- Analyze functional genes and antibiotic resistance genes.
+- Identify microbial indicators of specific environmental conditions.
+- Investigate virome diversity and pathogenic viruses to understand seasonal variations and antiviral resistance.
+- Explore the functional roles of viruses within microbial ecosystems, including the investigation of viral "dark matter" using RNA data to potentially disclose unknown viruses.
+
+## Methodology
 
 ## Workflow Overview
 
@@ -29,16 +38,6 @@ Ensure the following tools are installed and available in your `PATH`:
 3. **[QUAST](http://quast.sourceforge.net/)**: For assessing assembly quality.
 4. **[VirSorter2](https://github.com/jiarong/VirSorter2)**: For identifying viral sequences.
 
-
-## Objectives
-
-- Assess the temporal dynamics of microbial communities.
-- Analyze functional genes and antibiotic resistance genes.
-- Identify microbial indicators of specific environmental conditions.
-- Investigate virome diversity and pathogenic viruses to understand seasonal variations and antiviral resistance.
-- Explore the functional roles of viruses within microbial ecosystems, including the investigation of viral "dark matter" using RNA data to potentially disclose unknown viruses.
-
-## Methodology
 
 1. **Sample Collection:**
    - Weekly pooled samples from individual days per calendar week, covering calendar week 27 of 2021 to week 36 of 2022.
