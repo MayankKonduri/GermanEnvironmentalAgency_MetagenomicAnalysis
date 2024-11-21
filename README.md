@@ -8,6 +8,28 @@
 
 During the SARS-CoV-2 pandemic, we conducted weekly monitoring of wastewater samples in Leipzig, Germany, using PCR techniques to track various pathogens. This project analyzes metagenomic and meta-transcriptomic profiles of microbial communities, focusing on the temporal dynamics of microbial populations, functional genes, and antibiotic resistance genes. Additionally, we aim to identify microbial indicators of specific environmental conditions and explore virome diversity and pathogenic viruses.
 
+
+## Workflow Overview
+
+| **Step** | **Input**            | **Tool**       | **Output**                |
+|----------|----------------------|----------------|---------------------------|
+| 1        | Raw reads (FASTQ)    | Trimmomatic    | Trimmed reads (FASTQ)     |
+| 2        | Trimmed reads (FASTQ)| SPAdes         | Contigs (FASTA)           |
+| 3        | Contigs (FASTA)      | QUAST          | Assembly quality metrics  |
+| 4        | Contigs (FASTA)      | VirSorter2     | Viral contigs (FASTA)     |
+
+---
+
+## Tools and Dependencies
+
+Ensure the following tools are installed and available in your `PATH`:
+
+1. **[Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)**: For adapter trimming and quality filtering.
+2. **[SPAdes](https://cab.spbu.ru/software/spades/)**: For de novo genome assembly.
+3. **[QUAST](http://quast.sourceforge.net/)**: For assessing assembly quality.
+4. **[VirSorter2](https://github.com/jiarong/VirSorter2)**: For identifying viral sequences.
+
+
 ## Objectives
 
 - Assess the temporal dynamics of microbial communities.
