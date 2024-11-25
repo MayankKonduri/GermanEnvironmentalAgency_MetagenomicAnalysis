@@ -4,6 +4,8 @@
 
 > **Important Note:** This is not the entire of the project, most of the analysis was conducted on KBASE.
 
+## **Notes:** https://docs.google.com/document/d/1vZHqGcQSfkYFBZaXUkSO1Slh_AaXgMW4f6ISO0NfxlQ/edit?usp=sharing
+
 ## Overview
 
 During the SARS-CoV-2 pandemic, we conducted weekly monitoring of wastewater samples in Leipzig, Germany, using PCR techniques to track various pathogens. This project analyzes metagenomic and meta-transcriptomic profiles of microbial communities, focusing on the temporal dynamics of microbial populations, functional genes, and antibiotic resistance genes. Additionally, we aim to identify microbial indicators of specific environmental conditions and explore virome diversity and pathogenic viruses.
@@ -68,10 +70,17 @@ Our analysis provides insights into:
 - Identification of microbial indicators under varying environmental conditions.
 - Virome diversity, including known and potentially unknown viruses.
 
- 
- <img width="759" alt="Screenshot 2024-11-05 at 1 03 49 PM" src="https://github.com/user-attachments/assets/b32c8095-a072-4d0a-85b2-9210dd153c8d">
-
-
 ## Future Work
 
 This research has the potential to enhance public health monitoring and inform risk assessment strategies in wastewater-based epidemiology applications.
+
+## References
+
+1. Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. *Bioinformatics*, btu170.
+
+2. Arkin, A. P., Cottingham, R. W., Henry, C. S., Harris, N. L., Stevens, R. L., Maslov, S., et al. (2018). KBase: The United States Department of Energy Systems Biology Knowledgebase. *Nature Biotechnology*, 36, 566. doi: [10.1038/nbt.4163](https://doi.org/10.1038/nbt.4163)
+
+3. Mikheenko, A., Saveliev, V., Hirsch, P., Gurevich, A. (2023). WebQUAST: online evaluation of genome assemblies. *Nucleic Acids Research*, 51(W1), W601–W606. doi: [10.1093/nar/gkad406](https://doi.org/10.1093/nar/gkad406)
+
+4. Nayfach, S., Camargo, A. P., Schulz, F., et al. (2021). CheckV assesses the quality and completeness of metagenome-assembled viral genomes. *Nature Biotechnology*, 39, 578–585. doi: [10.1038/s41587-020-00774-7](https://doi.org/10.1038/s41587-020-00774-7)
+
