@@ -20,14 +20,14 @@ During the SARS-CoV-2 pandemic, we conducted weekly monitoring of wastewater sam
 
 ## Workflow Overview
 
-| **Step** | **Input**            | **Tool**       | **Output**                |
-|----------|----------------------|----------------|---------------------------|
-| 1        | Raw reads (FASTQ)    | Trimmomatic    | Trimmed reads (FASTQ)     |
-| 2        | Trimmed reads (FASTQ)| SPAdes         | Contigs (FASTA)           |
-| 3        | Contigs (FASTA)      | QUAST          | Assembly quality metrics  |
-| 4        | Contigs (FASTA)      | VirSorter2     | Viral contigs (FASTA)     |
+| Step | Input                        | Tool            | Output                       |
+|------|------------------------------|-----------------|------------------------------|
+| 1    | Raw reads (FASTQ)             | Trimmomatic     | Trimmed reads (FASTQ)         |
+| 2    | Trimmed reads (FASTQ)         | SPAdes          | Contigs (FASTA)               |
+| 3    | Contigs (FASTA)               | QUAST           | Assembly quality metrics     |
+| 4    | Contigs (FASTA)               | VirSorter2      | Viral contigs (FASTA)         |
+| 5    | Viral contigs (FASTA)         | CheckV          | Viral genome quality metrics  |
 
----
 
 ## Tools and Dependencies
 
