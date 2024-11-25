@@ -22,3 +22,9 @@ cd - >/dev/null
 
 # Optional: Clean up temporary subdirectory
 rm -rf "$TEMP_OUTPUT_DIR"
+
+
+#
+
+#Use this
+python3 /Users/mayank/miniconda3/bin/quast.py -o /Users/mayank/Downloads/SPAdes_Quast_Results /Users/mayank/Downloads/2721_SPAdes_Assembly/2721_SPAdes_Assembly.fa
