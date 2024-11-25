@@ -1,0 +1,1 @@
+checkv end_to_end /Users/mayank/Downloads/3021_VirSorter2_Assembly_Filtered.fa /Users/mayank/Downloads/CheckV_Output/ -t 16
